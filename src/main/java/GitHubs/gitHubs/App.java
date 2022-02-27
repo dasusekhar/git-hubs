@@ -1,4 +1,5 @@
-package GitHubs.gitHubs;
+
+import GitHubs.gitHubs.Constant;
 
 /**
  * Hello world!
@@ -8,8 +9,8 @@ public class App
 {
 	public void addData(String data)
 	{
-		System.out.println(" data "+data);
-		if(data.equals("javatechi"))
+		
+		if(data.equals(Constant.DATA_TYPE))
 		{
 			System.out.println("welcome");
 		}
